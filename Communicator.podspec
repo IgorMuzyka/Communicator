@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = "9.0"
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '3.0'
-  s.dependency = 'TypePreservingCodingAdapter', :git => 'https://github.com/igormuzyka/Type-Preserving-Coding-Adapter.git'
+  s.dependency 'TypePreservingCodingAdapter', :git => 'https://github.com/igormuzyka/Type-Preserving-Coding-Adapter.git'
 
 end
